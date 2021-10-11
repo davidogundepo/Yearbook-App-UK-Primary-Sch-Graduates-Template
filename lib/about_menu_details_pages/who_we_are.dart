@@ -7,7 +7,7 @@ String graduateSetThemeTitle = "We Are ELITE";
 String whoWeAre = "Who We Are";
 
 
-String imgAsset = "assets/images/hallel_18.jpg";
+String imgAsset = "assets/images/thrown_6_6.jpg";
 
 String whoVerse = "The Question\nThey ask us\nWho are we?\nThe world has set its standards\nBut we use a different curriculum\nWe don't fit anywhere";
 String weVerse = "Whose name do we carry?\nWhose voice do we hear?\nWhose footsteps do we follow\nThat marks us as chosen\nAnd names us as blessed";

@@ -32,7 +32,7 @@ String exitAppSubtitle = "Do you really really want to?";
 String exitAppNo = "Oh No";
 String exitAppYes = "I Have To";
 
-String imgAsset = "assets/images/hallel_9.jpg";
+String imgAsset = "assets/images/thrown_6_5.jpg";
 
 Color gradientColor = Colors.indigo;
 Color gradientColorTwo = Colors.cyan;

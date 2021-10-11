@@ -32,7 +32,7 @@ String aboutSchool = "About $schoolName";
 String acronymMeanings = "Acronym Meanings";
 String aboutApp = "About App";
 
-String imgAsset = "assets/images/hallel_5.jpg";
+String imgAsset = "assets/images/thrown_6_4.jpg";
 
 Color backgroundColor = Color.fromRGBO(222, 93, 131, 1);
 Color appBarTextColor = Colors.white;
@@ -321,6 +321,7 @@ class _MyPrimarySchoolGraduatingClassCPage extends State<MyPrimarySchoolGraduati
                                               color: textColor,
                                             ),),
                                           onTap: () {
+                                            Navigator.of(context).pop(false);
                                             navigateToWhoWeArePage(context);
                                           }
                                       ),
@@ -331,7 +332,8 @@ class _MyPrimarySchoolGraduatingClassCPage extends State<MyPrimarySchoolGraduati
                                             color: textColor,
                                           ),),
                                         onTap: () {
-                                          navigateToAboutSchoolDetailsPage(context);
+                                            Navigator.of(context).pop(false);
+                                            navigateToAboutSchoolDetailsPage(context);
                                         },
                                       ),
                                       ListTile(
@@ -341,6 +343,7 @@ class _MyPrimarySchoolGraduatingClassCPage extends State<MyPrimarySchoolGraduati
                                               color: textColor,
                                             ),),
                                           onTap: () {
+                                            Navigator.of(context).pop(false);
                                             navigateToAcronymsMeaningsPage(context);
                                           }
                                       ),
@@ -351,7 +354,8 @@ class _MyPrimarySchoolGraduatingClassCPage extends State<MyPrimarySchoolGraduati
                                             color: textColor,
                                           ),),
                                         onTap: () {
-                                          navigateToAboutAppDetailsPage(context);
+                                            Navigator.of(context).pop(false);
+                                            navigateToAboutAppDetailsPage(context);
                                         },
                                       ),
 
@@ -385,7 +389,7 @@ class _MyPrimarySchoolGraduatingClassCPage extends State<MyPrimarySchoolGraduati
                         heightFactor: 0.6,
                         child: Text(thrownName,
                             textAlign: TextAlign.center,
-                            style: GoogleFonts.amaticSC(
+                            style: GoogleFonts.abel(
                               color: textColor,
                               fontSize: 26.0,
                               fontWeight: FontWeight.bold

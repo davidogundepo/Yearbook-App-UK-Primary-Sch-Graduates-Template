@@ -42,7 +42,7 @@ class MyPrimarySchoolGraduatingClassASearch extends SearchDelegate {
         primaryColor: appBarBackgroundColor,
         primaryIconTheme: IconThemeData(color: appBarIconColor),
         primaryColorBrightness: Brightness.light,
-        textTheme: TextTheme(title: TextStyle(color: appBarTextColor, fontSize: 25)),
+        textTheme: TextTheme(subtitle1: TextStyle(color: appBarTextColor, fontSize: 25)),
         inputDecorationTheme: InputDecorationTheme(
           hintStyle: TextStyle(color: appBarTextColor.withAlpha(60)),
         ),

@@ -6,7 +6,7 @@ getGraduatesClassTeachers(
     GraduatesClassTeachersNotifier graduatesClassTeachersNotifier) async {
   QuerySnapshot snapshot = await FirebaseFirestore.instance
       .collection('GraduatesClassTeachers')
-      .orderBy('id')
+      .orderBy('name')
       .get();
 
   List<GraduatesClassTeachers> _graduatesClassTeachersList = [];

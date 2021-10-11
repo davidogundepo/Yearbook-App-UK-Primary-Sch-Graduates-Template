@@ -7,6 +7,7 @@ import '../bloc_navigation_bloc/navigation_bloc.dart';
 import 'sidebar.dart';
 
 class SideBarLayout extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
     SideBarNotifier sideBarNotifier = Provider.of<SideBarNotifier>(context);

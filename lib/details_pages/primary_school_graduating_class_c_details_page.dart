@@ -15,8 +15,8 @@ String schoolName = "AAB Primary School";
 
 String urlFacebook = "https://facebook.com/";
 String urlInstagram = "https://www.instagram.com/";
-String urlSnapchat = "https://www.snapchat.com/";
-String urlTikTok = "https://www.tiktok.com/";
+String urlSnapchat = "https://www.snapchat.com/add/";
+String urlTikTok = "https://www.tiktok.com/@";
 
 String reachDetails = "Contacts";
 String autoBioDetails = "AutoBiography";
@@ -140,7 +140,8 @@ class _SubPageState extends State<SubPage> {
     if (await canLaunch(url)) {
       await launch(url);
     } else {
-      print("Can't Launch $url");
+      ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: new Text("The required App not installed")));
     }
   }
 
@@ -453,11 +454,11 @@ class _SubPageState extends State<SubPage> {
                       color: buttonColor,
                       icon: new Icon(
                         MdiIcons.snapchat,
-                        color: iconTextColorTwo,
+                        color: iconTextColor,
                       ),
                       label: Text(snapchatButton,
                           style: GoogleFonts.abel(
-                              color: iconTextColorTwo,
+                              color: iconTextColor,
                               fontSize: 18,
                               fontWeight: FontWeight.w300)),
                       onPressed: () {
@@ -486,11 +487,11 @@ class _SubPageState extends State<SubPage> {
                         color: buttonColor,
                         icon: new Icon(
                           MdiIcons.snapchat,
-                          color: iconTextColorTwo,
+                          color: iconTextColor,
                         ),
                         label: Text(snapchatButton,
                             style: GoogleFonts.abel(
-                                color: iconTextColorTwo,
+                                color: iconTextColor,
                                 fontSize: 18,
                                 fontWeight: FontWeight.w300)),
                         onPressed: () {
@@ -516,11 +517,11 @@ class _SubPageState extends State<SubPage> {
                       color: buttonColor,
                       icon: new FaIcon(
                         FontAwesomeIcons.tiktok,
-                        color: iconTextColorTwo,
+                        color: iconTextColor,
                       ),
                       label: Text(tikTokButton,
                           style: GoogleFonts.abel(
-                              color: iconTextColorTwo,
+                              color: iconTextColor,
                               fontSize: 18,
                               fontWeight: FontWeight.w300)),
                       onPressed: () {
@@ -549,11 +550,11 @@ class _SubPageState extends State<SubPage> {
                         color: buttonColor,
                         icon: new FaIcon(
                           FontAwesomeIcons.tiktok,
-                          color: iconTextColorTwo,
+                          color: iconTextColor,
                         ),
                         label: Text(tikTokButton,
                             style: GoogleFonts.abel(
-                                color: iconTextColorTwo,
+                                color: iconTextColor,
                                 fontSize: 18,
                                 fontWeight: FontWeight.w300)),
                         onPressed: () {
