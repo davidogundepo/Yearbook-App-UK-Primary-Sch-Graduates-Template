@@ -223,7 +223,7 @@ class MyGraduatesClassTeachersSearch extends SearchDelegate {
                                     Padding(
                                       padding: const EdgeInsets.only(top: 10),
                                       child: Text(
-                                          search[position].staffPosition,
+                                          search[position].courseTeaching,
                                           style: GoogleFonts.tenorSans(
                                               color: textColor,
                                               fontSize: 16,

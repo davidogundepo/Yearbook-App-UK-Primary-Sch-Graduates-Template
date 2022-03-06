@@ -739,6 +739,8 @@ class _GraduatesClassTeachersDetailsPage extends State<GraduatesClassTeachersDet
                           style: GoogleFonts.abel(
                               color: iconTextColor,
                               fontSize: 18,
+                              decoration: TextDecoration.underline,
+                              decorationStyle: TextDecorationStyle.dashed,
                               fontWeight: FontWeight.w300
                           )
                       ),

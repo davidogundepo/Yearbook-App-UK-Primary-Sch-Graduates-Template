@@ -239,12 +239,12 @@ class MyPrimarySchoolGraduatingClassASearch extends SearchDelegate {
                                       ),
                                     ),
                                     (() {
-                                      if (search[position].twitter.toString().isNotEmpty) {
-                                        if (!search[position].twitter.toString().contains("@")) {
+                                      if (search[position].instagram.toString().isNotEmpty) {
+                                        if (!search[position].instagram.toString().contains("@")) {
                                           return Padding(
                                             padding: const EdgeInsets.only(top: 10),
                                             child: Text(
-                                                search[position].twitter == search[position].twitter ? '@'+search[position].twitter : search[position].twitter,
+                                                search[position].instagram == search[position].instagram ? '@'+search[position].instagram : search[position].instagram,
                                                 style: GoogleFonts.varela(
                                                     color: textColorTwo,
                                                     fontStyle: FontStyle.italic
@@ -256,7 +256,7 @@ class MyPrimarySchoolGraduatingClassASearch extends SearchDelegate {
                                           return Padding(
                                             padding: const EdgeInsets.only(top: 10),
                                             child: Text(
-                                                search[position].twitter,
+                                                search[position].instagram,
                                                 style: GoogleFonts.varela(
                                                     color: textColorTwo,
                                                     fontStyle: FontStyle.italic
@@ -270,7 +270,7 @@ class MyPrimarySchoolGraduatingClassASearch extends SearchDelegate {
                                           child: Padding(
                                             padding: const EdgeInsets.only(top: 10),
                                             child: Text(
-                                                search[position].twitter == search[position].twitter ? '@'+search[position].twitter : search[position].twitter,
+                                                search[position].instagram == search[position].instagram ? '@'+search[position].instagram : search[position].instagram,
                                                 style: GoogleFonts.varela(
                                                     color: textColorTwo,
                                                     fontStyle: FontStyle.italic

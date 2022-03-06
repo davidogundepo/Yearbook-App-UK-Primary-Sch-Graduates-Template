@@ -327,6 +327,7 @@ class _ManagementBodyDetailsPage extends State<ManagementBodyDetailsPage>{
     _regionFrom = managementBodyNotifier.currentManagementBody.regionOfOrigin;
     _email = managementBodyNotifier.currentManagementBody.email;
     _facebook = managementBodyNotifier.currentManagementBody.facebook;
+    _linkedIn = managementBodyNotifier.currentManagementBody.linkedIn;
     _instagram = managementBodyNotifier.currentManagementBody.instagram;
     _name = managementBodyNotifier.currentManagementBody.name;
     _qualification = managementBodyNotifier.currentManagementBody.qualification;
@@ -733,6 +734,8 @@ class _ManagementBodyDetailsPage extends State<ManagementBodyDetailsPage>{
                           style: GoogleFonts.abel(
                               color: iconTextColor,
                               fontSize: 18,
+                              decoration: TextDecoration.underline,
+                              decorationStyle: TextDecorationStyle.dashed,
                               fontWeight: FontWeight.w300
                           )
                       ),

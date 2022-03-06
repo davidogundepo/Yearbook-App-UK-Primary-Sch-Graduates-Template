@@ -161,8 +161,6 @@ class _SideBarState extends State<SideBar> with SingleTickerProviderStateMixin<S
 //      }
 
 
-
-
     return StreamBuilder<bool>(
       initialData: false,
       stream: isSidebarOpenedStream,

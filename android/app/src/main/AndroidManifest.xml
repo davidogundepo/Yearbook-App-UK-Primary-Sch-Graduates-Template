@@ -25,7 +25,7 @@
        android:label="UK Primary Sch ALMANAC Template"
        android:icon="@mipmap/ic_launcher"
        android:extractNativeLibs="true"
-       android:name="io.flutter.app.FlutterApplication"
+       android:name="${applicationName}"
        android:fullBackupContent="true"
        android:allowBackup="true">
         <activity
