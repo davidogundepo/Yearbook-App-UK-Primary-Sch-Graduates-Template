@@ -22,7 +22,7 @@
     </queries>
 
    <application
-       android:label="UK Primary Sch ALMANAC Template"
+       android:label="UK Pri Sch"
        android:icon="@mipmap/ic_launcher"
        android:extractNativeLibs="true"
        android:name="${applicationName}"

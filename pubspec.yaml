@@ -54,25 +54,27 @@ dependencies:
   lottie: ^1.1.0
 #  animated_splash_screen: ^1.1.0
 
-#flutter_native_splash:
-#  image: assets/images/about_app_sp.png
-#  color: "f7766d"
-#  android: false
-#  ios: true
-#  android_gravity: fill
-#  ios_content_mode: scaleAspectFill
+flutter_native_splash:
+  image: assets/images/about_app_sp.png
+  color: "f7766d"
+  android: false
+  ios: true
+  android_gravity: fill
+  ios_content_mode: scaleAspectFill
 
 
 flutter_app_name:
-  name: "UK Primary Sch ALMANAC Template"
+#  name: "UK Primary Sch ALMANAC Template"
+  name: "UK Pri Sch"
 
 flutter_icons:
   android: true
   ios: true
-  image_path: "assets/images/earlson_primary_school.jpeg"
+  image_path: "assets/images/uk_pri_icon.jpg"
 
 
 dev_dependencies:
+  flutter_native_splash: ^2.1.0
   flutter_test:
     sdk: flutter
 
