@@ -34,19 +34,19 @@ String aboutApp = "About App";
 
 String imgAsset = "assets/images/thrown_6_2.jpg";
 
-Color backgroundColor = Color.fromRGBO(222, 93, 131, 1);
+Color backgroundColor = Color.fromRGBO(27, 32, 33, 1);
 Color appBarTextColor = Colors.white;
-Color appBarBackgroundColor = Colors.pink[300];
+Color appBarBackgroundColor = Color.fromRGBO(27, 32, 33, 1);
 Color appBarIconColor = Colors.white;
 Color modalColor = Colors.transparent;
-Color modalBackgroundColor = Colors.pink[300];
+Color modalBackgroundColor = Color.fromRGBO(27, 32, 33, 1);
 Color materialBackgroundColor = Colors.transparent;
 Color cardBackgroundColor = Colors.white;
-Color splashColor = Colors.pinkAccent;
+Color splashColor = Color.fromRGBO(27, 32, 33, 1);
 Color iconColor = Colors.white;
 Color textColor = Colors.white;
 Color textColorTwo = Colors.white70;
-Color dialogBackgroundColor = Color.fromRGBO(222, 93, 131, 1);
+Color dialogBackgroundColor = Color.fromRGBO(27, 32, 33, 1);
 Color borderColor = Colors.black;
 
 

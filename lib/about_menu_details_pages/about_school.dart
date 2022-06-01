@@ -39,7 +39,7 @@ String studentPopulationChart = "$schoolName Students Population Chart";
 
 String orientationCampSwipe = "Swipe up for all Subjects offered";
 String subjectsOffered = "Subjects offered in $schoolName";
-  String subjectsOfferedInAAB = "AAB Primary School Subjects\n\n";
+String subjectsOfferedInAAB = "AAB Primary School Subjects\n\n";
 String subjectsOfferedInAABStatement1 = "1. English Language\n";
 String subjectsOfferedInAABStatement2 = "2. Mathematics\n";
 String subjectsOfferedInAABStatement3 = "3. Integrated/Basic Science\n";
@@ -78,24 +78,24 @@ double teachingStaffPopulation = 85;
 double nonTeachingStaffPopulation = 32;
 
 
-Color backgroundColor = Colors.blueGrey[900];
-Color cardBackgroundColor = Colors.black38;
-Color appBarIconColor = Colors.blueGrey;
-Color appBarTextColor = Colors.blueGrey;
-Color appBarBackgroundColor = Colors.blueGrey[800];
-Color cardTextColor = Colors.blueGrey;
-Color boxDecorationColor = Colors.blueGrey;
-Color chartBackgroundColor = Colors.grey[200];
+Color backgroundColor = Color.fromRGBO(136, 34, 56, 1.0);
+Color cardBackgroundColor = Color.fromRGBO(146, 54, 73, 1.0);
+Color appBarIconColor = Colors.white;
+Color appBarTextColor = Colors.white;
+Color appBarBackgroundColor = Color.fromRGBO(136, 34, 56, 1.0);
+Color cardTextColor = Colors.white;
+Color splashColor = Color.fromRGBO(212, 90, 115, 1.0);
+Color boxDecorationColor = Color.fromRGBO(212, 90, 115, 1.0);
+Color chartBackgroundColor = Colors.white;
+Color chartTextColor = Color.fromRGBO(212, 90, 115, 1.0);
 Color materialColor = Colors.transparent;
-Color textColor = Colors.blueGrey[900];
-Color firstSchoolChartColor = Colors.blueGrey;
-Color secondSchoolChartColor = Colors.deepOrangeAccent;
-Color thirdSchoolChartColor = Colors.yellow;
-Color fourthSchoolChartColor = Colors.cyan;
-Color firstStudentChartColor = Colors.blueGrey;
-Color secondStudentChartColor = Colors.deepOrangeAccent;
-
-
+Color textColor = Colors.white;
+Color firstSchoolChartColor = Color.fromRGBO(34, 63, 136, 1.0);
+Color secondSchoolChartColor = Color.fromRGBO(136, 34, 56, 1.0);
+Color thirdSchoolChartColor = Color.fromRGBO(153, 139, 66, 1.0);
+Color fourthSchoolChartColor = Color.fromRGBO(34, 136, 92, 1.0);
+Color firstStudentChartColor = Color.fromRGBO(136, 34, 56, 1.0);
+Color secondStudentChartColor = Color.fromRGBO(153, 139, 66, 1.0);
 
 
 class AboutSchoolDetails extends StatefulWidget {
@@ -115,7 +115,6 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
   );
 
   var scrollDirection = Axis.horizontal;
-
 
   @override
   void initState() {
@@ -169,7 +168,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
                 child: Material (
                   color: materialColor,
                   child: InkWell(
-                    splashColor: cardTextColor,
+                    splashColor: splashColor,
                     onTap: () {},
                     child: Padding(
                       padding: const EdgeInsets.only(top: 5, bottom: 5),
@@ -410,7 +409,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
                 child: Material (
                   color: materialColor,
                   child: InkWell(
-                    splashColor: cardTextColor,
+                    splashColor: splashColor,
                     onTap: () {},
                     child: Padding(
                       padding: const EdgeInsets.only(bottom: 15, top: 15, left: 10, right: 10),
@@ -452,7 +451,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
             Padding(
               padding: const EdgeInsets.only(left: 20, right: 20, bottom: 30),
               child: Container(
-                height: 250,
+                height: 400,
                 decoration: BoxDecoration(
                     color: boxDecorationColor.withAlpha(50),
                     borderRadius: new BorderRadius.circular(10)
@@ -460,7 +459,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
                 child: Material(
                   color: materialColor,
                   child: InkWell(
-                    splashColor: cardTextColor,
+                    splashColor: splashColor,
                     onTap: () {},
                     child: SingleChildScrollView(
                       scrollDirection: Axis.vertical,
@@ -488,7 +487,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
                             chartType: ChartType.disc,
                             legendOptions: LegendOptions(
                               showLegendsInRow: false,
-                              legendPosition: LegendPosition.right,
+                              legendPosition: LegendPosition.bottom,
                               showLegends: true,
                               legendShape: BoxShape.circle,
                               legendTextStyle: TextStyle(
@@ -500,7 +499,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
                               showChartValues: true,
                               // showChartValueLabel: true,
                               chartValueStyle: defaultChartValueStyle.copyWith(
-                                color: textColor.withOpacity(0.9),
+                                color: chartTextColor.withOpacity(0.9),
                               ),
                               showChartValuesInPercentage: false,
                               showChartValuesOutside: false,
@@ -521,7 +520,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
                 child: Material (
                   color: materialColor,
                   child: InkWell(
-                    splashColor: cardTextColor,
+                    splashColor: splashColor,
                     onTap: () {},
                     child: Padding(
                       padding: const EdgeInsets.only(bottom: 15, top: 15, left: 10, right: 10),
@@ -563,7 +562,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
             Padding(
               padding: const EdgeInsets.only(left: 20, right: 20, bottom: 30),
               child: Container(
-                height: 270,
+                height: 370,
                 decoration: BoxDecoration(
                     color: boxDecorationColor.withAlpha(50),
                     borderRadius: new BorderRadius.circular(10)
@@ -571,7 +570,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
                 child: Material(
                   color: materialColor,
                   child: InkWell(
-                    splashColor: cardTextColor,
+                    splashColor: splashColor,
                     onTap: () {},
                     child: SingleChildScrollView(
                       scrollDirection: Axis.vertical,
@@ -599,7 +598,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
                             chartType: ChartType.ring,
                             legendOptions: LegendOptions(
                               showLegendsInRow: false,
-                              legendPosition: LegendPosition.right,
+                              legendPosition: LegendPosition.bottom,
                               showLegends: true,
                               legendShape: BoxShape.circle,
                               legendTextStyle: TextStyle(
@@ -611,7 +610,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
                               showChartValues: true,
                               // showChartValueLabel: true,
                               chartValueStyle: defaultChartValueStyle.copyWith(
-                                color: textColor.withOpacity(0.9),
+                                color: chartTextColor.withOpacity(0.9),
                               ),
                               showChartValuesInPercentage: false,
                               showChartValuesOutside: false,
@@ -642,7 +641,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
                 child: Material (
                   color: materialColor,
                   child: InkWell(
-                    splashColor: cardTextColor,
+                    splashColor: splashColor,
                     onTap: () {},
                     child: Padding(
                       padding: const EdgeInsets.only(top: 5, bottom: 5),
@@ -673,7 +672,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
                 child: Material (
                   color: materialColor,
                   child: InkWell(
-                    splashColor: cardTextColor,
+                    splashColor: splashColor,
                     onTap: () {},
                     child: Padding(
                       padding: const EdgeInsets.only(bottom: 15, top: 15, left: 10, right: 10),
@@ -822,7 +821,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
                 child: Material (
                   color: materialColor,
                   child: InkWell(
-                    splashColor: cardTextColor,
+                    splashColor: splashColor,
                     onTap: () {},
                     child: Padding(
                       padding: const EdgeInsets.only(bottom: 15, top: 15, left: 10, right: 10),
@@ -932,7 +931,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
                 child: Material (
                   color: materialColor,
                   child: InkWell(
-                    splashColor: cardTextColor,
+                    splashColor: splashColor,
                     onTap: () {},
                     child: Padding(
                       padding: const EdgeInsets.only(top: 5, bottom: 5),
@@ -959,6 +958,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
             Container(
               height: 340,
               child: Swiper(
+                autoplay: true,
                 viewportFraction: 0.8,
                 scale: 0.9,
                 itemCount: schoolArialNotifier.schoolArialList.length,
@@ -979,7 +979,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
                     Container(
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.only(bottomLeft: Radius.circular(10), bottomRight: Radius.circular(10)),
-                        color: cardTextColor
+                        color: boxDecorationColor
                       ),
                       child: ListTile(
                         title: Center(
@@ -1018,13 +1018,13 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
                 child: Material (
                   color: materialColor,
                   child: InkWell(
-                    splashColor: cardTextColor,
+                    splashColor: splashColor,
                     onTap: () {},
                     child: Padding(
                       padding: const EdgeInsets.only(top: 5, bottom: 5),
                       child: SingleChildScrollView(
                         scrollDirection: Axis.vertical,
-                        child: Text(schoolArialViewsSwipe,
+                        child: Text(schoolAchievementsSwipe,
                           textAlign: TextAlign.center,
                           style: TextStyle(
                               color: cardTextColor,
@@ -1045,6 +1045,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
             Container(
               height: 340,
               child: Swiper(
+                autoplay: true,
                 viewportFraction: 0.8,
                 scale: 0.9,
                 itemCount: achievementsNotifier.achievementsList.length,
@@ -1067,7 +1068,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
                       Container(
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.only(bottomLeft: Radius.circular(10), bottomRight: Radius.circular(10)),
-                          color: cardTextColor
+                          color: boxDecorationColor
                         ),
                         child: ListTile(
                           title: Center(

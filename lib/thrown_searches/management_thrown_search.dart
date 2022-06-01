@@ -11,20 +11,20 @@ import 'package:provider/provider.dart';
 import '../details_pages/management_details_page.dart';
 import '../notifier/management_body_notifier.dart';
 
-Color backgroundColor = Colors.blue;
-Color appBarBackgroundColor = Colors.blueAccent;
+Color backgroundColor = Color.fromRGBO(6, 44, 48, 1);
+Color appBarBackgroundColor = Color.fromRGBO(6, 44, 48, 1);
 Color appBarTextColor = Colors.white;
 Color appBarIconColor = Colors.white;
 Color modalColor = Colors.transparent;
-Color modalBackgroundColor = Colors.blue[300];
+Color modalBackgroundColor = Color.fromRGBO(6, 44, 48, 1);
 Color materialBackgroundColor = Colors.transparent;
 Color cardBackgroundColor = Colors.white;
-Color splashColor = Colors.blue;
+Color splashColor = Color.fromRGBO(6, 44, 48, 1);
 Color splashColorTwo = Colors.black87;
 Color iconColor = Colors.white;
 Color textColor = Colors.white;
 Color textColorTwo = Colors.white70;
-Color dialogBackgroundColor = Color.fromRGBO(86, 158, 128, 1);
+Color dialogBackgroundColor = Color.fromRGBO(6, 44, 48, 1);
 Color borderColor = Colors.black;
 Color textHighlightColor = Colors.white;
 
