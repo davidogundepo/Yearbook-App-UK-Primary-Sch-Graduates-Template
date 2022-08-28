@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:provider/provider.dart';
-import '../details_pages/graduates_class_teachers_details.page.dart';
+import '../details_pages/graduates_class_teachers_details_page.dart';
 import '../notifier/graduates_class_teachers_notifier.dart';
 
 Color backgroundColor = Color.fromRGBO(99, 38, 38, 1);

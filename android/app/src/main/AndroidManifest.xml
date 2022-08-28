@@ -22,7 +22,7 @@
     </queries>
 
    <application
-       android:label="UK Pri Sch"
+       android:label="Primary School"
        android:icon="@mipmap/ic_launcher"
        android:extractNativeLibs="true"
        android:name="${applicationName}"
